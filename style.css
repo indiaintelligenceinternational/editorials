@@ -22,7 +22,7 @@ p {
 .card-img {
     align-self: center;
 }
-h1 {
+h2 {
     text-align: center;
 }
 img:hover {
@@ -37,10 +37,11 @@ h4 {
     height: 70px;
     width: 60%;
     margin: 0 auto;
-    background-color: white;
+    background-color: black !important;
+    color: white;
     animation-name: stretch;
     animation-duration: 1.5s; 
-    animation-timing-function: ease-out; 
+    animation-timing-function: ease-in-out; 
     animation-delay: 0;
     animation-direction: alternate;
     animation-iteration-count: infinite;
